@@ -1,9 +1,7 @@
-# Datavant
+# Datavant Automation Suite
 
 ## Author
 [Erick Wright]("https://github.com/wright15")
-
-# Development-9-prototype Automation Suite
 
 This project is a automation test suite designed using BDD as a test philosophy. This allows encapsulation of functions in human readable language, allowing developers to program tests to business standards by using language derived directly from acceptance criteria or standards outlined in definition of done documentation.
 
@@ -50,7 +48,7 @@ In the process of developing tests for text validation within page elements, I e
 In summary, while I was able to work around these challenges creatively, there is room for improvement to ensure a smoother user experience, easier implementation, and more efficient testing. Addressing the inconsistencies in date formatting and exploring better strategies for element targeting can enhance the overall quality of the tests and the user experience.
 
 
-The features are dates.feature, guests.feature, and location.feature. These files hold the test steps in human readable language using BDD via Gherkin. 
+The feature file is Tickets.feature. This file hold the test steps in human readable language using BDD via Gherkin. 
 
 The stepdefs.js file is for the logic that runs the scenarios. In the stepdefs.js file the code is organized by what feature the code corresponds to. This logic was written using JavaScript. 
 
